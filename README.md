@@ -39,7 +39,7 @@ A simple and user-friendly movie search website that allows users to find detail
 
 ## 🌍 Try it Online
 Anyone can use the website directly from the following link:
-👉 [Live Demo](https://your-username.github.io/movie-search-website/)
+👉 [Live Demo](https://your-username.github.io/movie-finder)
 
 ## ⚠️ API Rate Limit Issue
 - The free OMDB API has a rate limit, allowing only **1,000 requests per day**.
@@ -59,4 +59,4 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 This project is licensed under the MIT License.
 
 ---
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by Rohit Gupta (https://github.com/devrxy)
