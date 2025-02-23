@@ -58,4 +58,4 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 This project is licensed under the MIT License.
 
 ---
-Made with ❤️ by Rohit Gupta (https://github.com/devrxy)
+Made with ❤️ by Rohit Gupta (https://github.com/dev-roxy)
