@@ -26,7 +26,7 @@ A simple and user-friendly movie search website that allows users to find detail
    - Sign up and get your free API key
 
 3. **Add API Key to your project:**
-   - Open `script.js` (or relevant JS file handling API requests)
+   - Open `config.js` (or relevant JS file handling API requests)
    - Replace `YOUR_OMDB_API_KEY` with your actual API key
 
 4. **Open `index.html` in a browser:**
@@ -34,8 +34,7 @@ A simple and user-friendly movie search website that allows users to find detail
 
 ## 🔥 Usage
 1. Enter a movie title in the search bar
-2. Click the "Search" button
-3. View movie details instantly, including IMDb ratings!
+2. View movie details instantly!
 
 ## 🌍 Try it Online
 Anyone can use the website directly from the following link:
