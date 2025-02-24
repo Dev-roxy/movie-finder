@@ -10,18 +10,9 @@ body{
 a {
     text-decoration: none;
 }
-.cardGrid:has(.notFound,.loading){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.cardGrid .notFound{
-    width: fit-content;
-    margin: 20px auto;
-}
 
-.cardGrid .errorEmoji{
+
+ .errorEmoji{
     color: hsl(0 100% 50%);
     font-size: 7rem;
     margin: 20px auto;
@@ -245,6 +236,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     width: 100%;
+    grid-row: 1 / -1;
 }
 .loading .load {
     width: 70px;
@@ -264,3 +256,4 @@ header nav ul li a {
         transform: rotate(360deg);
     }
 }
+
