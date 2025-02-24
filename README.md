@@ -38,7 +38,7 @@ A simple and user-friendly movie search website that allows users to find detail
 
 ## 🌍 Try it Online
 Anyone can use the website directly from the following link:
-👉 [Live Demo](https://your-username.github.io/movie-finder)
+👉 [Live Demo](https://movie-finder-private.onrender.com/)
 
 ## ⚠️ API Rate Limit Issue
 - The free OMDB API has a rate limit, allowing only **1,000 requests per day**.
