@@ -1,6 +1,7 @@
 const searchInput = document.getElementById("search");
 const cardGrid = document.querySelector(".cardGrid");
-const url = `/getMovies?&s=`;
+const url = ` http://www.omdbapi.com/?apikey=${API_KEY}
+&s=`;
 let timeoutId = null;
 let totalResults = 0;
 let page = 1;
@@ -108,9 +109,13 @@ const handleSearch = (e) => {
 
     document.querySelector("main").innerHTML += generateLoading();
     const movies = (await getMovies(search, page)) || [];
-    document
+
+  let IslastChidisGrid = document.querySelector("main").lastElementChild.classList.contains("cardGrid");
+    if (!IslastChidisGrid) {
+      document
       .querySelector("main")
       .removeChild(document.querySelector("main").lastElementChild);
+    }
 
     if (movies.length === 0) {
       document.querySelector(".cardGrid").innerHTML = "";
